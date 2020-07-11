@@ -10,7 +10,7 @@ The image captioning system is trained on a part of Microsoft **C**ommon **O**bj
 
 You can read more about the dataset on the [website](http://cocodataset.org/#home) or in the [research paper](https://arxiv.org/pdf/1405.0312.pdf).
 
-The project is structured as a series of Jupyter notebooks that are designed to be completed in sequential order (`0_Dataset.ipynb, 1_Preliminaries.ipynb, 2_Training.ipynb, 3_Inference.ipynb`).
+The project is structured as a series of Jupyter notebooks that are designed to be completed in sequential order:
 
 __Notebook 0__ : Initialization of the COCO dataset [0_Dataset](0_Dataset.ipynb)  
 
@@ -18,9 +18,9 @@ __Notebook 1__ : Data pre-processing and design of an initial CNN-RNN network [1
 
 __Notebook 2__ : Training of the CNN-RNN network with different model structures and hyperparameters [2_Training_1](2_Training_1.ipynb) or [2_Training_2](2_Training_2.ipynb)  
 
-__Notebook 3__ : Validation of the CNN-RNN network using greedy search and beam search in comparision [2_Validation_2](2_Validation_2.ipynb)
+__Notebook 3__ : Validation of the CNN-RNN network using greedy search and beam search in comparision [2_Validation_2](2_Validation_2.ipynb)  
 
-__Notebook 4__ : Test the trained CNN-RNN image captioning network on examples [3_Inference_1](3_Inference_1.ipynb) or [3_Inference_2](3_Inference_2.ipynb)
+__Notebook 4__ : Test the trained CNN-RNN image captioning network on examples [3_Inference_1](3_Inference_1.ipynb) or [3_Inference_2](3_Inference_2.ipynb)  
 
 
 ## Installation
