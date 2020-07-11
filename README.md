@@ -1,4 +1,4 @@
-# CVND---Image-Captioning-Project
+# Image-Captioning Project using a CNN-RNN Encoder-Decoder Network in Pytorch
 
 ## Overview
 
@@ -12,15 +12,15 @@ You can read more about the dataset on the [website](http://cocodataset.org/#hom
 
 The project is structured as a series of Jupyter notebooks that are designed to be completed in sequential order:
 
-__Notebook 0__ : Initialization of the COCO dataset [0_Dataset](0_Dataset.ipynb)  
+__Notebook 0__ : Initialization of the COCO dataset s. [project notebook 0](0_Dataset.ipynb)  
 
-__Notebook 1__ : Data pre-processing and design of an initial CNN-RNN network [1_Preliminaries](1_Preliminaries.ipynb)  
+__Notebook 1__ : Data pre-processing and design of an initial CNN-RNN network s. [project notebook 1](1_Preliminaries.ipynb)  
 
-__Notebook 2__ : Training of the CNN-RNN network with different model structures and hyperparameters [2_Training_1](2_Training_1.ipynb) or [2_Training_2](2_Training_2.ipynb)  
+__Notebook 2__ : Training of the CNN-RNN network with different model structures and hyperparameters s. [project notebook 2.1](2_Training_1.ipynb) or [project notebook 2.2](2_Training_2.ipynb)  
 
-__Notebook 3__ : Validation of the CNN-RNN network using greedy search and beam search in comparision [2_Validation_2](2_Validation_2.ipynb)  
+__Notebook 2 add-on__ : Validation of the CNN-RNN network using greedy search and beam search in comparision s. [procject notebook 2.2 add-on](2_Validation_2.ipynb)  
 
-__Notebook 4__ : Test the trained CNN-RNN image captioning network on examples [3_Inference_1](3_Inference_1.ipynb) or [3_Inference_2](3_Inference_2.ipynb)  
+__Notebook 3__ : Test the trained CNN-RNN image captioning network on examples s. [project notebook 3.1](3_Inference_1.ipynb) or [project notebook 3.1](3_Inference_2.ipynb)  
 
 
 ## Installation
@@ -117,11 +117,11 @@ jupyter notebook
 
 Navigate to your local project folder in the Jupyter notebook, open the notebooks 1...4
 
-[0_Dataset](0_Dataset.ipynb)
-[1_Preliminaries](1_Preliminaries.ipynb)
-[2_Training_1](2_Training_1.ipynb) or [2_Training_2](2_Training_2.ipynb)
-[2_Validation_2](2_Validation_2.ipynb)
-[3_Inference_1](3_Inference_1.ipynb) or [3_Inference_2](3_Inference_2.ipynb)
+* [0_Dataset](0_Dataset.ipynb)  
+* [1_Preliminaries](1_Preliminaries.ipynb)  
+* [2_Training_1](2_Training_1.ipynb) or [2_Training_2](2_Training_2.ipynb)  
+* [2_Validation_2](2_Validation_2.ipynb)  
+* [3_Inference_1](3_Inference_1.ipynb) or [3_Inference_2](3_Inference_2.ipynb)  
 
 and run them one after another.
 
